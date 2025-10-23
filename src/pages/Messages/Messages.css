@@ -1,0 +1,38 @@
+.messages {
+  width: 100%;
+}
+
+.page-header {
+  margin-bottom: 30px;
+}
+
+.page-header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 4px;
+}
+
+.page-header p {
+  font-size: 15px;
+  color: #666;
+}
+
+.coming-soon {
+  background: white;
+  border-radius: 12px;
+  padding: 80px 40px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.coming-soon h3 {
+  font-size: 24px;
+  color: #1a1a1a;
+  margin: 20px 0 10px;
+}
+
+.coming-soon p {
+  font-size: 16px;
+  color: #666;
+}

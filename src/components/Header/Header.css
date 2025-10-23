@@ -1,0 +1,77 @@
+.header {
+  background: linear-gradient(135deg, #e0e7ff 0%, #f3e8ff 100%);
+  padding: 20px 30px;
+  border-bottom: 1px solid #e5e7eb;
+  margin-left: 250px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 4px;
+}
+
+.header-left p {
+  font-size: 14px;
+  color: #666;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.user-badge {
+  padding: 8px 16px;
+  border-radius: 20px;
+  color: white;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.logout-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.logout-btn:hover {
+  background-color: #dc2626;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(239, 68, 68, 0.4);
+}
+
+@media (max-width: 768px) {
+  .header {
+    margin-left: 70px;
+    padding: 15px 20px;
+  }
+  
+  .header-content {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .header-left h3 {
+    font-size: 18px;
+  }
+}
