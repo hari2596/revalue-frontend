@@ -1,7 +1,11 @@
 import axios from 'axios';
 
-const BASE_URL = import.meta.env.VITE_API_URL || 'https://revalue-backend.onrender.com';
+// Use environment variable for base URL (include /api)
+const BASE_URL = import.meta.env.VITE_API_URL || 'https://reavalue-backend.onrender.com/api';
 
+console.log('API Base URL:', BASE_URL);
+
+// Create axios instance with base URL
 const api = axios.create({
   baseURL: BASE_URL,
   headers: {
